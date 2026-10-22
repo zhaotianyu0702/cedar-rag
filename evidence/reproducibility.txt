@@ -1,0 +1,8 @@
+Independent second offline CPU run: 2026-10-21; same pinned model and environment.
+documents shape= (6, 384) max_abs_difference= 0.0 bitwise_equal=PASS
+queries shape= (4, 384) max_abs_difference= 0.0 bitwise_equal=PASS
+scores shape= (4, 6) max_abs_difference= 0.0 bitwise_equal=PASS
+results-unjudged.csv identical=PASS
+rankings.json identical=PASS
+q1-answer-prompt.txt identical=PASS
+q4-answer-prompt.txt identical=PASS

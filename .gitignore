@@ -1,0 +1,11 @@
+.venv/
+.cache/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+REVIEW_CHECKLIST.md
+evidence/final-review.txt
+evidence/setup-initial-failure.txt
+evidence/setup-install.txt

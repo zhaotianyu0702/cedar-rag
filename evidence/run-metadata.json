@@ -1,0 +1,55 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "requested_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "loaded_revision": null,
+  "device": "cpu",
+  "python": "3.13.5",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "versions": {
+    "sentence-transformers": "5.7.0",
+    "numpy": "2.5.4",
+    "torch": "2.14.1",
+    "transformers": "5.20.2",
+    "huggingface-hub": "2.2.0"
+  },
+  "dtype": "float32",
+  "torch_threads": 1,
+  "run_utc": "2026-10-21T20:07:42.919141+00:00",
+  "document_ids": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "T1",
+    "T2"
+  ],
+  "question_ids": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4"
+  ],
+  "documents_encoded_count": 6,
+  "document_encode_calls": 1,
+  "source_sha256": {
+    "docs/access.txt": "46a88326e4d990ad904c0b218526d2f241adce513a13351d3fcfe28c1f38fd2e",
+    "docs/training.txt": "0e8dcaad8a4a592f856e73ea75beac0ae1e473cac89e6259906826aabeeac57a",
+    "docs/booking.txt": "f37deebfe193ec28142beb3684ac3f48a7419b14e831261363122aa4d011499c"
+  },
+  "code_sha256": {
+    "corpus.py": "cc8489ef92eeb94fbdf9100aa6ec7501006317bb9c55a79bcb0bdcf1af59f0d0",
+    "keyword_retriever.py": "c2751f0935fe29f792d0f8af9bcf8538795cef52059bf926cdc035cc4b0fbdf9",
+    "embedding_retriever.py": "cc852ffeb27d8c8ad236deaf1ef2d847ae635e8e63159937cfa08ec4654ecb76",
+    "run_experiments.py": "56258a6ea2dfb267f570c4ecad1e5566c861a828090fb05dad0fc4cf345a94e7"
+  },
+  "output_sha256": {
+    "embedding-inspection.txt": "3134f0f2029b62de928aa49a57430893913332aebbde98a45da3f51c96fd7acd",
+    "retrieval-runs.txt": "775aa68a54cc42bc2eca350c2d1e71e939df1fec6a771974e2660ad3dd52b9d2",
+    "k-experiment.txt": "044273c75317ee91375baa537dec792a17866f788756dfbfa26d514a1aedb6f7",
+    "results-unjudged.csv": "7322bd41fd09d04e37d17ad7818371a3ab333f5abd2b47b9ffc34910ba9fe3b4",
+    "vectors.npz": "04d8362080c73b6432a57957fcdb6377eeea8b6bd59f2b4f8e037966a8913146",
+    "rankings.json": "201bbb7353ac95f139d0f118ac4dbc191544a68bd0e167d279990e0f2cbd3d31",
+    "q1-answer-prompt.txt": "7cf804b004537fd8435fb79deef6a726cf127c0a0f1d6bb7b58d7e268ee8199a",
+    "q4-answer-prompt.txt": "7da777b67d77c45755eb86b7078c7606e15022cf2ca29b2322a5a17e5c321406"
+  }
+}

@@ -1,0 +1,14 @@
+INDIVIDUAL REFLECTION — STUDENT MUST WRITE THIS
+
+Name: Tianyu Zhao
+Partner name, or worked individually: Worked individually; no partner.
+
+Write your own explanation in no more than 150 words, as the handout requires.
+Cover the path from a question to a cited answer, one observed failure or
+limitation, and one change you would test next.
+
+RAG systems empower LLMs with external knowledge by providing a vector database and retrieving information as context for question answering, followed by the model citing this evidence and verifying whether the citations support its conclusions.
+A key challenge is evidence completeness rather than just correctness: for instance, in Q1, the retrieved rule itself was accurate but missed crucial details like opening hours. Furthermore, this limitation cannot be generalized as a universal failure; specifically in Q1, increasing the embedding retrieval \(k\) from 1 to 3 still failed to capture the missing segment.
+An interesting next step is to combine keyword and embedding retrieval. By attaching a trained router to the model, the system can dynamically decide whether to select a specific method or merge the results of both, evaluated using concrete test metrics such as evidence coverage rather than claiming maximum correctness.
+
+If working with a partner, each partner must add a separate individual reflection.

@@ -1,0 +1,279 @@
+{
+  "Q1": {
+    "question": "May a trained graduate student operate the laser alone at 19:00?",
+    "keyword": [
+      {
+        "id": "A1",
+        "score": 3,
+        "matched": [
+          "00",
+          "graduate",
+          "trained"
+        ]
+      },
+      {
+        "id": "A2",
+        "score": 2,
+        "matched": [
+          "laser",
+          "trained"
+        ]
+      },
+      {
+        "id": "B1",
+        "score": 1,
+        "matched": [
+          "laser"
+        ]
+      },
+      {
+        "id": "T1",
+        "score": 1,
+        "matched": [
+          "laser"
+        ]
+      },
+      {
+        "id": "T2",
+        "score": 1,
+        "matched": [
+          "trained"
+        ]
+      },
+      {
+        "id": "B2",
+        "score": 0,
+        "matched": []
+      }
+    ],
+    "embedding": [
+      {
+        "id": "A2",
+        "score": 0.6864455938339233
+      },
+      {
+        "id": "T1",
+        "score": 0.5819528102874756
+      },
+      {
+        "id": "B1",
+        "score": 0.532696008682251
+      },
+      {
+        "id": "A1",
+        "score": 0.3742489218711853
+      },
+      {
+        "id": "T2",
+        "score": 0.27045220136642456
+      },
+      {
+        "id": "B2",
+        "score": 0.1287396103143692
+      }
+    ]
+  },
+  "Q2": {
+    "question": "Can I use the laser without another person present?",
+    "keyword": [
+      {
+        "id": "A2",
+        "score": 2,
+        "matched": [
+          "laser",
+          "present"
+        ]
+      },
+      {
+        "id": "B1",
+        "score": 1,
+        "matched": [
+          "laser"
+        ]
+      },
+      {
+        "id": "T1",
+        "score": 1,
+        "matched": [
+          "laser"
+        ]
+      },
+      {
+        "id": "A1",
+        "score": 0,
+        "matched": []
+      },
+      {
+        "id": "B2",
+        "score": 0,
+        "matched": []
+      },
+      {
+        "id": "T2",
+        "score": 0,
+        "matched": []
+      }
+    ],
+    "embedding": [
+      {
+        "id": "A2",
+        "score": 0.5851933360099792
+      },
+      {
+        "id": "T1",
+        "score": 0.4347606301307678
+      },
+      {
+        "id": "B1",
+        "score": 0.4253561496734619
+      },
+      {
+        "id": "T2",
+        "score": 0.19075393676757812
+      },
+      {
+        "id": "B2",
+        "score": 0.057623039931058884
+      },
+      {
+        "id": "A1",
+        "score": 0.035636138170957565
+      }
+    ]
+  },
+  "Q3": {
+    "question": "How frequently must I refresh my laser qualification?",
+    "keyword": [
+      {
+        "id": "T1",
+        "score": 2,
+        "matched": [
+          "laser",
+          "must"
+        ]
+      },
+      {
+        "id": "A2",
+        "score": 1,
+        "matched": [
+          "laser"
+        ]
+      },
+      {
+        "id": "B1",
+        "score": 1,
+        "matched": [
+          "laser"
+        ]
+      },
+      {
+        "id": "A1",
+        "score": 0,
+        "matched": []
+      },
+      {
+        "id": "B2",
+        "score": 0,
+        "matched": []
+      },
+      {
+        "id": "T2",
+        "score": 0,
+        "matched": []
+      }
+    ],
+    "embedding": [
+      {
+        "id": "T1",
+        "score": 0.7420274019241333
+      },
+      {
+        "id": "B1",
+        "score": 0.4711952209472656
+      },
+      {
+        "id": "A2",
+        "score": 0.44925737380981445
+      },
+      {
+        "id": "A1",
+        "score": 0.2363271862268448
+      },
+      {
+        "id": "B2",
+        "score": 0.14731022715568542
+      },
+      {
+        "id": "T2",
+        "score": 0.04095161706209183
+      }
+    ]
+  },
+  "Q4": {
+    "question": "What is the laser wavelength?",
+    "keyword": [
+      {
+        "id": "A2",
+        "score": 1,
+        "matched": [
+          "laser"
+        ]
+      },
+      {
+        "id": "B1",
+        "score": 1,
+        "matched": [
+          "laser"
+        ]
+      },
+      {
+        "id": "T1",
+        "score": 1,
+        "matched": [
+          "laser"
+        ]
+      },
+      {
+        "id": "A1",
+        "score": 0,
+        "matched": []
+      },
+      {
+        "id": "B2",
+        "score": 0,
+        "matched": []
+      },
+      {
+        "id": "T2",
+        "score": 0,
+        "matched": []
+      }
+    ],
+    "embedding": [
+      {
+        "id": "T1",
+        "score": 0.3477212190628052
+      },
+      {
+        "id": "A2",
+        "score": 0.3208271563053131
+      },
+      {
+        "id": "B1",
+        "score": 0.3115009665489197
+      },
+      {
+        "id": "A1",
+        "score": 0.057950712740421295
+      },
+      {
+        "id": "B2",
+        "score": -0.04349697753787041
+      },
+      {
+        "id": "T2",
+        "score": -0.05448812618851662
+      }
+    ]
+  }
+}

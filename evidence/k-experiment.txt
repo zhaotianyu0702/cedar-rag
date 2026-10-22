@@ -1,0 +1,59 @@
+Q1: unchanged question, model, corpus and scores; only k changes.
+Document embeddings computed once and reused across all questions and k settings.
+EMBEDDING question='May a trained graduate student operate the laser alone at 19:00?' k=1
+Question vector shape: (384,)
+Question first 12: [0.0485, 0.0060, -0.0148, -0.0017, -0.0642, -0.0427, 0.0008, -0.0575, -0.0771, -0.0306, 0.0749, 0.0967]
+Question length=1.000000000; approximately 1: PASS
+All six similarities (full precision calculation; rounded display):
+A2 dot=0.686445594 direct_cosine=0.686445594
+T1 dot=0.581952810 direct_cosine=0.581952870
+B1 dot=0.532696009 direct_cosine=0.532696009
+A1 dot=0.374248922 direct_cosine=0.374248892
+T2 dot=0.270452201 direct_cosine=0.270452201
+B2 dot=0.128739610 direct_cosine=0.128739610
+Dot and direct cosine agree: PASS (atol=1e-6, rtol=0)
+Selected: A2
+[A2] access.txt score=0.686445594
+The laser room requires two trained people to be present whenever the laser is operating, including during general laboratory access hours.
+Required A1,A2: coverage=1/2 = 0.5; complete=False
+
+EMBEDDING question='May a trained graduate student operate the laser alone at 19:00?' k=2
+Question vector shape: (384,)
+Question first 12: [0.0485, 0.0060, -0.0148, -0.0017, -0.0642, -0.0427, 0.0008, -0.0575, -0.0771, -0.0306, 0.0749, 0.0967]
+Question length=1.000000000; approximately 1: PASS
+All six similarities (full precision calculation; rounded display):
+A2 dot=0.686445594 direct_cosine=0.686445594
+T1 dot=0.581952810 direct_cosine=0.581952870
+B1 dot=0.532696009 direct_cosine=0.532696009
+A1 dot=0.374248922 direct_cosine=0.374248892
+T2 dot=0.270452201 direct_cosine=0.270452201
+B2 dot=0.128739610 direct_cosine=0.128739610
+Dot and direct cosine agree: PASS (atol=1e-6, rtol=0)
+Selected: A2, T1
+[A2] access.txt score=0.686445594
+The laser room requires two trained people to be present whenever the laser is operating, including during general laboratory access hours.
+[T1] training.txt score=0.581952810
+Laser training must be renewed every 12 months. A current training record is required before operating the laser.
+Required A1,A2: coverage=1/2 = 0.5; complete=False
+
+EMBEDDING question='May a trained graduate student operate the laser alone at 19:00?' k=3
+Question vector shape: (384,)
+Question first 12: [0.0485, 0.0060, -0.0148, -0.0017, -0.0642, -0.0427, 0.0008, -0.0575, -0.0771, -0.0306, 0.0749, 0.0967]
+Question length=1.000000000; approximately 1: PASS
+All six similarities (full precision calculation; rounded display):
+A2 dot=0.686445594 direct_cosine=0.686445594
+T1 dot=0.581952810 direct_cosine=0.581952870
+B1 dot=0.532696009 direct_cosine=0.532696009
+A1 dot=0.374248922 direct_cosine=0.374248892
+T2 dot=0.270452201 direct_cosine=0.270452201
+B2 dot=0.128739610 direct_cosine=0.128739610
+Dot and direct cosine agree: PASS (atol=1e-6, rtol=0)
+Selected: A2, T1, B1
+[A2] access.txt score=0.686445594
+The laser room requires two trained people to be present whenever the laser is operating, including during general laboratory access hours.
+[T1] training.txt score=0.581952810
+Laser training must be renewed every 12 months. A current training record is required before operating the laser.
+[B1] booking.txt score=0.532696009
+Laser room bookings are limited to two hours per session. Reserve the room through the equipment calendar.
+Required A1,A2: coverage=1/2 = 0.5; complete=False
+

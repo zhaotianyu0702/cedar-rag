@@ -1,0 +1,3 @@
+Recorded before any retrieval run on 2026-10-21.
+Codex preliminary expectation, not a student reflection:
+Q1 requires A1 for the general access time and A2 for the two-trained-person operating condition. Expected required IDs: A1 and A2.

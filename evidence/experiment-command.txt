@@ -1,0 +1,21 @@
+W1021 16:07:42.398000 12763 .venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 16279.66it/s]
+Saved 9 experiment artifacts to /Users/tzhao/Documents/Codex/2026-10-21/task/cedar-rag/evidence
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "requested_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "loaded_revision": null,
+  "device": "cpu",
+  "python": "3.13.5",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "versions": {
+    "sentence-transformers": "5.7.0",
+    "numpy": "2.5.4",
+    "torch": "2.14.1",
+    "transformers": "5.20.2",
+    "huggingface-hub": "2.2.0"
+  },
+  "dtype": "float32",
+  "torch_threads": 1
+}
+Human judgments remain blank in results-unjudged.csv.
